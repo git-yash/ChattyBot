@@ -4,8 +4,7 @@ public class ChattyBot {
     private String remainders;
 
     private void introduction() {
-        System.out.println("Hello! My name is Aid.");
-        System.out.println("I was created in 2018.");
+        System.out.println("Hello! My name is Gibbit.");
         String userName = GatherInput.gatherStringInput("Please, remind me your name.", true);
         System.out.println("What a great name you have, " + userName + "!");
     }
